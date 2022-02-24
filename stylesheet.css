@@ -1,0 +1,43 @@
+body {
+    height: auto;
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: 16px;
+
+}
+
+.left-links {
+    display: flex;
+}
+
+.right-links {
+    display: flex;
+    gap: 24px;
+    margin-right: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+}
+
+.left-top-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-1 {
+    
+}
