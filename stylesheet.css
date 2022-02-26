@@ -4,6 +4,15 @@ body {
     font-family: roboto, sans-serif;
 }
 
+
+/* Top part */
+
+
+.container {
+    background-color: #1f2937;
+    padding-bottom: 150px;
+}
+
 .header {
     background-color: #1f2937;
     display: flex;
@@ -11,7 +20,6 @@ body {
     justify-content: space-between;
     color: whitesmoke;
     padding: 16px;
-
 }
 
 .left-links {
@@ -31,13 +39,148 @@ ul {
 .top-content {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 100px;
 }
 
 .left-top-content {
     display: flex;
     flex-direction: column;
+    color: whitesmoke;
+    gap: 0px;
+    height: 250px;
 }
 
 .image-1 {
+ max-width: fit-content;
+ max-height: fit-content;
+ display: flex;
+}
+
+.name {
+    font-size: 35px;
+    padding: 1px;
+    display: flex;
+    height: 50%;
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 0px;
+    display: flex;
+}
+
+.button1 {
+    display: flex;
+}
+
+
+/* Middle part */
+
+.container2 {
+    padding-bottom: 50px;
+}
+
+.info {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #1f2937;
+   font-size: 35px;
+   padding: 16px;
+}
+
+.middle-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.middle-image1, .middle-image2, .middle-image3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-image1, .middle-image2, .middle-image3 > p {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.quote1 {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    max-width: 620px;
+}
+
+.quote2 {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    margin-left: 400px;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.banner {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #3882f6;
+    width: 900px;
+    gap: 100px;
     
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bottom-button {
+    display: flex;;
+    justify-content: center;
+    padding: 50px;
+}
+
+.left-text > p {
+    color: whitesmoke;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color:#1f2937 ;
+    color: white;
 }
